@@ -1,0 +1,85 @@
+/* @media (max_width:600px){
+    body {
+        background-color: lightblue;
+        font-size: 14px;
+    }
+    
+    h1 {
+        color: darkblue;
+        font-size: 24px;
+    }
+    
+    p {
+        color: black;
+        line-height: 1.5;
+    }
+} */
+
+👌/* responsive css */
+/* img{
+    height:60 px;
+    width:60 px;
+    position:relative;
+    animation-name:fadeIn;
+    animation-duration:5s;
+    animation-delay:1s;
+}
+@keyframes fadeIn {
+    from {
+        left:0;
+        top:0;
+    }
+    to {
+        left:60%;
+        top:80%;
+    }
+} */
+/* img{
+    height:100px;
+    width:100px;
+    position: absolute;
+    animation-name:chutki;
+    animation-duration:5s;
+    animation-delay:1s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes chutki{
+    0%{
+        top:0;
+        left:0;
+        rotate:36deg;
+    }
+    50%{
+        left:80%;
+        top:0;
+        rotate:360deg;
+    }
+    100%{
+        left:80%;
+        top:80%;
+        rotate:360deg;
+    }
+} */
+/* **fadeIn chutki etc is a identifier** */👌
+
+/* 👍pseudo element with after and before */
+/* h1{
+    color:rgb(224, 42, 42);
+    font-size:100px;
+}
+h1::after{
+    content:"?🎶"
+} */
+
+/* .box{
+    height:200px;
+    width:200px;
+    background-color: red;
+ }
+ .box::after{
+    content:"kaise ho";
+}*/👍
