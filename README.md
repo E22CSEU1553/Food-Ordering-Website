@@ -25,10 +25,31 @@ last 2 versions
 
 
   -->
-JSX is not html in js
+<!-- JSX is not html in js
 it is a html like or Xml like syntax
 react element is an object
-const jsxheading=<h1>Namaste React Using JSX</h1>;
+const jsxheading=<h1>Namaste React Using JSX</h1>; -->
+<!-- component composition -->
+<!-- usestate,useeffect,component,arrow function -->
+******
+<!-- routing: 
+useEffct(()=>{}("call back function"),[]("dependency array"))
+everytime react component render useeffect will be called when their is no dependency array
+when there is a empty dependency array then useffect function called on intial rendering(just once)
+if dependency array is [btnnamereact] then useeffect everytime when btnnamereact is updated
 
+Condition:never write usestarte function outside component and inside if else condition
+always write usestate function in the starting of react component
+-->
+*******
+
+
+
+<!-- "https://corsproxy.io/?" -->
+
+configuration is an information that will define what will happen in a specfic router
+
+
+ 
  # Namaste React
  

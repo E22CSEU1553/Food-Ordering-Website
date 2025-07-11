@@ -1,85 +1,122 @@
-/* @media (max_width:600px){
-    body {
-        background-color: lightblue;
-        font-size: 14px;
-    }
-    
-    h1 {
-        color: darkblue;
-        font-size: 24px;
-    }
-    
-    p {
-        color: black;
-        line-height: 1.5;
-    }
+/* .header{
+    margin:20px;
+    padding: 0 20px 20px 0;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    border :1px solid black;
+    border-radius:5px;
+} */
+/* .Nav{
+    padding:25px;
+}
+.logo{
+    width:250px;
+    height:170px;
+    object-fit:cover
+}
+.Nav > ul{
+    display:flex;
+    list-style-type:none;
+    font-size:25px;
+}
+.Nav > ul >li{
+    font-family:cursive;
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display:flex;
+    flex-wrap:wrap; 
+}
+.res-card{
+    background-color: gray;
+    width:300px;
+    margin:15px;
+    border-radius:8px;
+    font-family:cursive;
+    overflow:hidden;
+    padding:10px;
+
+}
+.res-card:hover{
+    border:1px solid black;
+    cursor:pointer;
+}
+
+
+
+.res-image{
+    width:100%;
+    object-fit:cover;
+    display:block;
+    border: 1px solid black;
+}
+
+
+.filter-btn{
+    margin:20px;
+    cursor:pointer;
+    border-radius:8px;
+    height:22px;
+    font-family:cursive;
+
 } */
 
-👌/* responsive css */
-/* img{
-    height:60 px;
-    width:60 px;
-    position:relative;
-    animation-name:fadeIn;
-    animation-duration:5s;
-    animation-delay:1s;
+/* .res-card> h3{
+    font-size:16px;
+    margin-top:8px;
+    justify-content:center;
+    align-items:center;
+    word-wrap: break-word;       👈 break long names into next line 
+    white-space: normal;        👈 allow wrapping 
 }
-@keyframes fadeIn {
-    from {
-        left:0;
-        top:0;
-    }
-    to {
-        left:60%;
-        top:80%;
-    }
-} */
-/* img{
-    height:100px;
+.res-card > h4{
+    line-height:1;
+    white-space: normal;
+    overflow-wrap: anywhere; 
+    word-break: keep-all;  
+}
+.login{
     width:100px;
-    position: absolute;
-    animation-name:chutki;
-    animation-duration:5s;
-    animation-delay:1s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-timing-function:ease-in-out;
+    height:50px;
+    border-radius:8px;
+    cursor:pointer;
+    margin:12px;
 }
-
-@keyframes chutki{
-    0%{
-        top:0;
-        left:0;
-        rotate:36deg;
-    }
-    50%{
-        left:80%;
-        top:0;
-        rotate:360deg;
-    }
-    100%{
-        left:80%;
-        top:80%;
-        rotate:360deg;
-    }
-} */
-/* **fadeIn chutki etc is a identifier** */👌
-
-/* 👍pseudo element with after and before */
-/* h1{
-    color:rgb(224, 42, 42);
-    font-size:100px;
+.filter{
+    display:flex;
+    flex-wrap:wrap;
 }
-h1::after{
-    content:"?🎶"
+.type-btn{
+    margin:20px;
+    border-radius:5px;
+}
+.search-btn{
+    border-radius:5px;
+    border:1px solid black;
+    padding:3px;
+    cursor:pointer;
+    font-family:cursive;
+}
+.login{
+    font-family:cursive;
+    padding:0;
+}
+.shimmer-container {
+    display:flex;
+    flex-wrap:wrap;
+}
+.shimmer-card {
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color:gray;
+
 } */
 
-/* .box{
-    height:200px;
-    width:200px;
-    background-color: red;
- }
- .box::after{
-    content:"kaise ho";
-}*/👍
+/* 1     */
+
+@import "tailwindcss";
+

@@ -1,0 +1,6 @@
+.parcel-cache
+dist
+node_modules
+.jest.config.js
+package-lock.json
+package.json
