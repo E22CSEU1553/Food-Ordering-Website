@@ -47,9 +47,8 @@ always write usestate function in the starting of react component
 
 <!-- "https://corsproxy.io/?" -->
 
-configuration is an information that will define what will happen in a specfic router
-
+# https://e22cseu1553.github.io/Food-Ordering-Website/
 
  
- # Namaste React
+ # food-ordering-website
  
